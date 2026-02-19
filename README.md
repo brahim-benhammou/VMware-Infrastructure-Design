@@ -20,6 +20,7 @@
 | **VLAN 20** | vMotion | 10.10.20.0/24 | 10.10.20.1 | 10Gb Live VM Migration |
 | **VLAN 30** | vSAN/Storage | 10.10.30.0/24 | 10.10.30.1 | 10Gb SSD Data Traffic |
 | **VLAN 100** | VM Network | 10.10.100.0/24 | 10.10.100.1 | Ubuntu VMs / App Factory |
+ **VLAN 110** | DevOps Tools |10.10.110.0/24 | 10.10.110.1 |Automation tools: Git, Ansible, Terraform runner, Jenkins, AWX, monitoring |
 
 ---
 
@@ -28,7 +29,7 @@
 | Service | IP Address | Hostname | Role |
 | :--- | :--- | :--- | :--- |
 | **OPNsense** | 10.10.10.1 | firewall.lab.local | NAT, Routing, Edge Security |
-| **Active Directory** | 10.10.10.10 | ad-01.lab.local | Identity & DNS (Windows VM) |
+| **Active Directory** | 10.10.10.10 | ad-01.lab.local | Identity & DNS  |
 | **vCenter Server** | 10.10.10.20 | vcenter.lab.local | Infrastructure Management |
 
 ---
