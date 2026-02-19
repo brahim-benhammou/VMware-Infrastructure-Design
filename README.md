@@ -1,0 +1,50 @@
+# VMware Infrastructure Architecture
+
+## Overview
+
+This repository presents a structured VMware infrastructure architecture designed to simulate enterprise data center patterns in a lab environment. The design focuses on clear network segmentation, logical topology, and a stable foundation for infrastructure operations and automation testing.
+
+## Goal
+
+Provide a realistic infrastructure architecture that supports platform operations, workload deployment scenarios, and future automation workflows.
+
+## Design Highlights
+
+Physical multi host setup using Dell PowerEdge servers
+Layer 3 switching with VLAN based segmentation
+Dedicated networks for management, storage, and workloads
+Structured logical topology aligned with enterprise practices
+Foundation prepared for infrastructure automation
+
+## Network Segmentation
+
+Management network for core services such as vCenter and DNS
+Isolated storage and vMotion networks for host traffic
+Dedicated VM network for workload environments
+Separate DevOps tools network for automation services
+
+## Core Services
+
+Centralized management through vCenter
+Firewall and routing provided by OPNsense
+Identity and DNS services through Active Directory
+
+## Purpose
+
+Serve as a reference architecture for building and testing infrastructure operations in a controlled lab environment while maintaining realistic design principles.
+
+## Scope
+
+Architecture documentation only
+No production workloads
+Designed for learning and platform experimentation
+
+## Summary
+
+This architecture establishes a segmented and structured VMware platform that mirrors real world infrastructure design patterns and provides a solid base for future automation and operational testing.
+
+## Author
+
+Brahim Benhammou
+
+
